@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <h1>Famous Cartoon Dogs</h1>
+
+    <ul id="puppies" >
+        <li class="great_dane">
+          Scooby Doo
+          <img src="images/huskies.jpeg" alt="Scooby Doo" />
+        </li>
+        <li class="cairn_terrier" >
+          Toto
+          <img src="images/huskies.jpeg" alt="Toto" />
+        </li>
+        <li class="lab" >
+          Old Yeller
+          <img src="images/huskies.jpeg" alt="Old Yeller" />
+        </li>
+        <li class="cocker_spaniel" >
+          Lady
+          <img src="images/huskies.jpeg" alt="Lady" />
+        </li>
+        <li class="chihuahua" >
+          Ren<img src="images/huskies.jpeg" alt="Ren" />
+        </li>
+        <li class="collie" >
+          Lassie
+          <img src="images/huskies.jpeg" alt="Lassie" />
+        </li>
+        <li class="great_dane" >
+          Marmaduke
+          <img src="images/huskies.jpeg" alt="Marmaduke" />
+        </li>
+        <li class="beagle" >
+          Snoopy
+          <img src="images/huskies.jpeg" alt="Snoopy" />
+        </li>
+    </ul>
+
+
+    <form action="/puppies" method="post" id="new_puppy">
+      <fieldset>
+        <legend>Add a Dog</legend>
+      <ul>
+        <li>
+        <label for=name>Puppie Name</label>
+        <input id="name" name=name type=text placeholder="puppie name">
+        </li>
+        <li>
+          <label for=select>Breed</label>
+          <select id="breed" name=breed >
+            <option value="">Select a breed</option>
+            <option value="beagle">Beagle</option>
+            <option value="cairn_terrier">Cairn Terrier</option>
+            <option value="chihuahua">Chihuahua</option>
+            <option value="cocker_spaniel">Cocker Spaniel</option>
+            <option value="collie">Collie</option>
+            <option value="great_dane">Great Dane</option>
+            <option value="lab">Lab</option>
+          </select>
+        </li>
+        <li>
+          <button name=submit type=submit>Add Dog!</button>
+        </li>
+      </ul>
+     </fieldset>
+    </form>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
+
+
+
+
+
